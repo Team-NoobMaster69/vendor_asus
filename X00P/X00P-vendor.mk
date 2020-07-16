@@ -18,6 +18,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/asus/X00P
 
 PRODUCT_COPY_FILES += \
+    vendor/asus/X00P/proprietary/lib/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.biometrics.fingerprint@2.1.so \
+    vendor/asus/X00P/proprietary/lib64/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/asus/X00P/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/asus/X00P/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/asus/X00P/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
@@ -158,6 +160,14 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_chromatix.xml \
     vendor/asus/X00P/proprietary/vendor/etc/camera/s5k4h7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h7_chromatix.xml \
     vendor/asus/X00P/proprietary/vendor/etc/camera/s5k5e8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k5e8_chromatix.xml \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.b00 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.b01 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.b02 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.b03 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.b04 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.b05 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.b06 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.mdt \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8937.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8937.b00 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8937.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8937.b01 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8937.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8937.b02 \
@@ -166,6 +176,15 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8937.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8937.b05 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8937.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8937.b06 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8937.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8937.mdt \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.b00 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.b01 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.b02 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.b03 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.b04 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.b05 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.b06 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.mbn:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.mbn \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.mdt \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8937.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8937.b00 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8937.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8937.b01 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8937.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8937.b02 \
@@ -175,6 +194,14 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8937.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8937.b06 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8937.mbn:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8937.mbn \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8937.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8937.mdt \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.b00 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.b01 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.b02 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.b03 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.b04 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.b05 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.b06 \
+    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.mdt \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8937.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8937.b00 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8937.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8937.b01 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8937.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8937.b02 \
@@ -196,7 +223,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
     vendor/asus/X00P/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/asus/X00P/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/asus/X00P/proprietary/vendor/lib/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/asus/X00P/proprietary/vendor/lib/hw/camera.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8937.so \
     vendor/asus/X00P/proprietary/vendor/lib/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5816g.so \
     vendor/asus/X00P/proprietary/vendor/lib/libactuator_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5823.so \
@@ -1655,7 +1681,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
     vendor/asus/X00P/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/asus/X00P/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
-    vendor/asus/X00P/proprietary/vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/asus/X00P/proprietary/vendor/lib64/android.vendor.swfingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.vendor.swfingerprint@1.0.so \
     vendor/asus/X00P/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
     vendor/asus/X00P/proprietary/vendor/lib64/hw/fpsensor_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fpsensor_fingerprint.default.so \
