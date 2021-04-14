@@ -233,18 +233,16 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/lib/libactuator_pseudo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pseudo.so \
     vendor/asus/X00P/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz.so \
     vendor/asus/X00P/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
-    vendor/asus/X00P/proprietary/vendor/lib/libarcsoft_face_detection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_face_detection.so \
-    vendor/asus/X00P/proprietary/vendor/lib/libarcsoft_face_tracking.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_face_tracking.so \
     vendor/asus/X00P/proprietary/vendor/lib/libarcsoft_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_hdr.so \
     vendor/asus/X00P/proprietary/vendor/lib/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_night_shot.so \
     vendor/asus/X00P/proprietary/vendor/lib/libarcsoft_nighthawk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_nighthawk.so \
     vendor/asus/X00P/proprietary/vendor/lib/libarcsoft_picselfie_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_picselfie_algorithm.so \
     vendor/asus/X00P/proprietary/vendor/lib/libarcsoft_piczoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_piczoom.so \
     vendor/asus/X00P/proprietary/vendor/lib/libarcsoft_videostab.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_videostab.so \
-    vendor/asus/X00P/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
     vendor/asus/X00P/proprietary/vendor/lib/libcamera_selfie.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_selfie.so \
     vendor/asus/X00P/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
     vendor/asus/X00P/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
+    vendor/asus/X00P/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/asus/X00P/proprietary/vendor/lib/libchromatix_ar1337_1080p_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1337_1080p_preview_3a.so \
     vendor/asus/X00P/proprietary/vendor/lib/libchromatix_ar1337_1080p_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1337_1080p_video_3a.so \
     vendor/asus/X00P/proprietary/vendor/lib/libchromatix_ar1337_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1337_common.so \
@@ -1490,7 +1488,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/lib/libchromatix_s5k5e8_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_snapshot.so \
     vendor/asus/X00P/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_zsl_preview.so \
     vendor/asus/X00P/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e8_zsl_video.so \
+    vendor/asus/X00P/proprietary/vendor/lib/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcameraddm.so \
     vendor/asus/X00P/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
+    vendor/asus/X00P/proprietary/vendor/lib/libgui_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui_vendor.so \
     vendor/asus/X00P/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/asus/X00P/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/asus/X00P/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
@@ -1517,6 +1517,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_arc_nighthawk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_arc_nighthawk.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_arc_videostab.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_arc_videostab.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_atmel_at24c32e_eeprom.so \
+    vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_csidtg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_csidtg.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dcrf_lib.so \
@@ -1589,9 +1590,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_isp_wb40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_wb40.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_le2464c_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_le2464c_eeprom.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_le2464c_master_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_le2464c_master_eeprom.so \
+    vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c16_eeprom.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so \
+    vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_ov13850.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13850.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_ov13850_q13v06k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13850_q13v06k.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_ov13855_gt24c64_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13855_gt24c64_eeprom.so \
@@ -1639,6 +1642,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx298_eeprom.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_sony_imx378_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx378_eeprom.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sonyimx135_eeprom.so \
+    vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_8865_eeprom.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so \
@@ -1649,24 +1653,27 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_truly_cma481_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_truly_cma481_eeprom.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_truly_cmb433_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_truly_cmb433_eeprom.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning_lookup.so \
+    vendor/asus/X00P/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ubifocus_lib.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
     vendor/asus/X00P/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/asus/X00P/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
+    vendor/asus/X00P/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/asus/X00P/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/asus/X00P/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/asus/X00P/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/asus/X00P/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/asus/X00P/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
+    vendor/asus/X00P/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/asus/X00P/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
-    vendor/asus/X00P/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
-    vendor/asus/X00P/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
+    vendor/asus/X00P/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/asus/X00P/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/asus/X00P/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/asus/X00P/proprietary/vendor/lib64/android.vendor.swfingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.vendor.swfingerprint@1.0.so \
@@ -1675,9 +1682,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/lib64/hw/mafp_factory.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mafp_factory.default.so \
     vendor/asus/X00P/proprietary/vendor/lib64/hw/microarray.fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/microarray.fingerprint.default.so \
     vendor/asus/X00P/proprietary/vendor/lib64/hw/swfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/swfingerprint.default.so \
-    vendor/asus/X00P/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
     vendor/asus/X00P/proprietary/vendor/lib64/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svacnn.so \
     vendor/asus/X00P/proprietary/vendor/lib64/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2vop.so \
+    vendor/asus/X00P/proprietary/vendor/lib64/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcameraddm.so \
     vendor/asus/X00P/proprietary/vendor/lib64/libfprint-x64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfprint-x64.so \
     vendor/asus/X00P/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
     vendor/asus/X00P/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
@@ -1686,8 +1693,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/lib64/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_dbg.so \
     vendor/asus/X00P/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_algo.so \
     vendor/asus/X00P/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/asus/X00P/proprietary/vendor/lib64/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboptizoom.so \
+    vendor/asus/X00P/proprietary/vendor/lib64/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libseemore.so \
     vendor/asus/X00P/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
-    vendor/asus/X00P/proprietary/vendor/lib64/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_detected_face_hal.so \
-    vendor/asus/X00P/proprietary/vendor/lib64/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_face_beautify_hal.so \
+    vendor/asus/X00P/proprietary/vendor/lib64/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libubifocus.so \
     vendor/asus/X00P/proprietary/vendor/lib64/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoutils.so \
     vendor/asus/X00P/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
