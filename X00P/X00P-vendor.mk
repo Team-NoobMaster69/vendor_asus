@@ -365,14 +365,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
     vendor/asus/X00P/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/asus/X00P/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.b00 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.b01 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.b02 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.b03 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.b04 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.b05 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.b06 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8917.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8917.mdt \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8937.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8937.b00 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8937.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8937.b01 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8937.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8937.b02 \
@@ -381,15 +373,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8937.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8937.b05 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8937.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8937.b06 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/fngap64_8937.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fngap64_8937.mdt \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.b00 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.b01 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.b02 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.b03 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.b04 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.b05 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.b06 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.mbn:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.mbn \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8917.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8917.mdt \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8937.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8937.b00 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8937.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8937.b01 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8937.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8937.b02 \
@@ -399,14 +382,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8937.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8937.b06 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8937.mbn:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8937.mbn \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/mafp_8937.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/mafp_8937.mdt \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.b00 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.b01 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.b02 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.b03 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.b04 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.b05 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.b06 \
-    vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8917.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8917.mdt \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8937.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8937.b00 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8937.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8937.b01 \
     vendor/asus/X00P/proprietary/vendor/etc/firmware/sw_fp_8937.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sw_fp_8937.b02 \
@@ -454,6 +429,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00P/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
     vendor/asus/X00P/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/asus/X00P/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/asus/X00P/proprietary/vendor/firmware/a300_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pfp.fw \
+    vendor/asus/X00P/proprietary/vendor/firmware/a300_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pm4.fw \
+    vendor/asus/X00P/proprietary/vendor/firmware/a330_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pfp.fw \
+    vendor/asus/X00P/proprietary/vendor/firmware/a330_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pm4.fw \
     vendor/asus/X00P/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     vendor/asus/X00P/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/asus/X00P/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
